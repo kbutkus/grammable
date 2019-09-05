@@ -64,19 +64,18 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
-  gem 'jquery-rails'
-
-
-  gem 'popper_js', '~> 1.11.1'
-  gem 'bootstrap', '4.0.0.alpha6'
-  gem 'simple_form'
-  gem 'devise'
   gem "factory_bot_rails"
-  gem "figaro"
-  gem "fog-aws"
+  
 end
 
 gem 'carrierwave', '~> 2.0'
+gem 'devise'
+gem 'bootstrap', '4.0.0.alpha6'
+gem 'jquery-rails'
+gem 'simple_form'
+gem "figaro"
+gem "fog-aws"
+gem 'popper_js', '~> 1.11.1'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
