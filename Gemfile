@@ -68,7 +68,7 @@ group :development, :test do
   
 end
 
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 1.0'
 gem 'devise'
 gem 'bootstrap', '4.0.0.alpha6'
 gem 'jquery-rails'

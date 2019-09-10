@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2019_08_30_015903) do
     t.text "message"
     t.integer "user_id"
     t.integer "gram_id"
-    t.datetime "created_at", null: false
+    t.datetime "created_at", nullc: false
     t.datetime "updated_at", null: false
     t.index ["gram_id"], name: "index_comments_on_gram_id"
     t.index ["user_id"], name: "index_comments_on_user_id"
